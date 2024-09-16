@@ -7,21 +7,21 @@ const quiz = {
             "question": "Question 1?",
             "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
             "entered": [],
-            "correct": "Actual answer"
+            "correct": "Actual answer1"
         },
         {
             "type": "single",
            "question": "Question 2?",
             "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
             "entered": [],
-            "correct": "Actual answer"
+            "correct": "Actual answer2"
         },
            {
             "type": "single",
            "question": "Question 3?",
             "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
             "entered": [],
-            "correct": "Actual answer"
+            "correct": "Actual answer3"
         },
            {
             "type": "single",
@@ -141,7 +141,7 @@ const quiz = {
             "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
             "entered": [],
             "correct": "Actual answer"
-        },
+        }
     ]
 }
 // Tracks index of question on quiz
