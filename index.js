@@ -1,7 +1,7 @@
 // Serve an object with this structure in order to generate a quiz page
 // The `correct` key is referential and should not be served
 const quiz = {
-    "name": "Psychology Quiz",
+    "name": "AWS Certified AI Practitioner - Mock Exam 1",
     "questions": [{
             "type": "single",
             "question": "Which is not a step in the scientific method?",
