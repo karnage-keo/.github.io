@@ -1,47 +1,147 @@
-// Serve an object with this structure in order to generate a quiz page
+on// Serve an object with this structure in order to generate a quiz page
 // The `correct` key is referential and should not be served
 const quiz = {
     "name": "AWS Certified AI Practitioner - Mock Exam 1",
     "questions": [{
             "type": "single",
-            "question": "Which is not a step in the scientific method?",
-            "answers": ["Ask question", "Form hypothesis", "Replicate results", "Collect data", "Analysis"],
+            "question": "Question 1?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
             "entered": [],
-            "correct": "Replicate results"
+            "correct": "Actual answer"
         },
         {
             "type": "single",
-            "question": "_____ explanations for aggressive behavior include genetic predisposition, high testosterone level and frontal lobe damage.",
-            "answers": ["Social", "Biological", "Cross-cultural", "Cognitive", "Psychoactive"],
+           "question": "Question 2?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
             "entered": [],
-            "correct": "Biological"
+            "correct": "Actual answer"
         },
-        {
+           {
             "type": "single",
-            "question": "Social identity refers to _____.",
-            "answers": ["Our membership in particular groups, which largely determines our everyday interactions", "Prejudices that are based on personal experiences that occur during development", "The drive for success that motivates people to form prejudices about their competitors", "All of the answers are correct."],
+           "question": "Question 3?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
             "entered": [],
-            "correct": "Replicate results"
+            "correct": "Actual answer"
         },
-        {
-            "type": "multiple",
-            "question": "The belief that everyone is good and naturally altruistic is an example of which psychological perspective?",
-            "answers": ["Biological", "Cognitive", "Behavioral", "Evolutionary", "Humanistic"],
+           {
+            "type": "single",
+           "question": "Question 4?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
             "entered": [],
-            "correct": "Humanistic"
+            "correct": "Actual answer"
         },
-        {
-            "type": "short",
-            "question": "Please describe in two sentences or less what psychoanalysis is.",
+          {
+            "type": "single",
+           "question": "Question 5?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
             "entered": [],
-            "answers": []
+            "correct": "Actual answer"
         },
-        {
-            "type": "long",
-            "question": "In three paragraphs, describe Freud's theory of id, ego, and superego. Use examples as needed.",
+          {
+            "type": "single",
+           "question": "Question 6?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
             "entered": [],
-            "answers": []
-        }
+            "correct": "Actual answer"
+        },
+         {
+            "type": "single",
+           "question": "Question 7?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
+            "entered": [],
+            "correct": "Actual answer"
+        },
+           {
+            "type": "single",
+           "question": "Question 8?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
+            "entered": [],
+            "correct": "Actual answer"
+        },
+          {
+            "type": "single",
+           "question": "Question 9?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
+            "entered": [],
+            "correct": "Actual answer"
+        },
+            {
+            "type": "single",
+           "question": "Question 10?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
+            "entered": [],
+            "correct": "Actual answer"
+        },
+            {
+            "type": "single",
+           "question": "Question 11?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
+            "entered": [],
+            "correct": "Actual answer"
+        },
+            {
+            "type": "single",
+           "question": "Question 12?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
+            "entered": [],
+            "correct": "Actual answer"
+        },
+            {
+            "type": "single",
+           "question": "Question 13?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
+            "entered": [],
+            "correct": "Actual answer"
+        },
+            {
+            "type": "single",
+           "question": "Question 14?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
+            "entered": [],
+            "correct": "Actual answer"
+        },
+            {
+            "type": "single",
+           "question": "Question 15?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
+            "entered": [],
+            "correct": "Actual answer"
+        },
+            {
+            "type": "single",
+           "question": "Question 16?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
+            "entered": [],
+            "correct": "Actual answer"
+        },
+            {
+            "type": "single",
+           "question": "Question 17?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
+            "entered": [],
+            "correct": "Actual answer"
+        },
+            {
+            "type": "single",
+           "question": "Question 18?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
+            "entered": [],
+            "correct": "Actual answer"
+        },
+            {
+            "type": "single",
+           "question": "Question 19?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
+            "entered": [],
+            "correct": "Actual answer"
+        },
+            {
+            "type": "single",
+           "question": "Question 20?",
+            "answers": ["Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5"],
+            "entered": [],
+            "correct": "Actual answer"
+        },
     ]
 }
 // Tracks index of question on quiz
